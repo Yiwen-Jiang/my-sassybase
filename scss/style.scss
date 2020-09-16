@@ -1,5 +1,15 @@
-$color-background:pink;
+// VARIABLES
+$type-base: 'acumin-pro', Helvetica, arial, sans-serif;
+$type-heading: 'kepler-std', georgia, serif;
+$type-linewidth: 38em;
 
-body {
-    background: $color-background;
-}
+//COLORS
+$type-color: rgba(0,0,0,.8);
+$type-color-lightgrey: rgba(0, 0, 0, 0.5);
+$type-color-links: rgb(14, 97, 90);
+$type-color-linksdark: #003;
+$accent-color: rgb(218, 76, 130);
+
+@import "partials/toc";
+@import "partials/typography";
+@import "partials/buttons"; 
